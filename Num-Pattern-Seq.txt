@@ -10,9 +10,10 @@ namespace NumPatternseq
     {
         static void Main(string[] args)
         {
-            int num, temp = 1;
+            int temp = 1;
+            
             Console.WriteLine("Enter a value :");
-            num = int.Parse(Console.ReadLine());
+            int num = int.Parse(Console.ReadLine());
 
             for(int row=1;row<=num;row++)
             {
